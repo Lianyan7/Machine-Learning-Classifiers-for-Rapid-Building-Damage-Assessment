@@ -12,9 +12,9 @@ are saved to separate Excel workbooks in the "Detailed results" directory.
 A confusion matrix visualisation (with additional indicators) is generated using the MLP
 classifier's testing confusion matrix from the final parameter combination.
 
-Author: [Your Name]
-Date: [Date]
-License: [Appropriate License]
+Author: [Lianyan Li]
+Date: [22/02/2025]
+
 """
 
 import os
@@ -40,7 +40,7 @@ from sklearn.metrics import (accuracy_score, confusion_matrix, f1_score,
 # =============================================================================
 
 # File path to the Excel workbook containing the four sheets.
-FILE_PATH = 'RBA.xlsx'
+FILE_PATH = 'RBA.xlsx' #upload your data as needed.
 
 # Read data from the Excel file
 df_value = pd.read_excel(FILE_PATH, sheet_name='Value')
@@ -327,7 +327,7 @@ print(f"SVM results saved to {results_file_path_svm}")
 # =============================================================================
 
 if mlp_confusion_matrix_for_plot is None:
-    raise ValueError("No confusion matrix available from MLP testing for visualisation.")
+    raise ValueError("No confusion matrix available from the testing for visualisation.")
 
 # Define class labels (assumed 10 damage states)
 states = ['G', 'Y', 'R', 'G1', 'G2', 'Y1', 'Y2', 'R1', 'R2', 'R3']
