@@ -5,6 +5,6 @@ This project evaluated the four machine learning classifiers—Multilayer Percep
 
 Li, L., Chang-Richards, A., et al. (2025). A machine learning-supported rapid classification of building damage following the 2010–2011 Canterbury earthquakes. Engineering Structures.
 
-To run the script, three documents are needed. Two of these are empirical datasets from the 2010–2011 Canterbury earthquake sequence (CES): DEE.xlsx and RBA.xlsx. The third document is the Python file, ML Classifiers.py, which includes the implementation of the four classifiers for training and testing each model, followed by the generation of a confusion matrix visualisation.
+This research was conducted with ethics approval granted by the University of Auckland Human Participants Ethics Committee (Reference Number 25474). The data utilised in this research contains sensitive building property information and is therefore confidential. However, a subset of the non-confidential data can be made available upon request. The Python file, ML Classifiers.py, includes the implementation of the four classifiers for training and testing each model, followed by the generation of a confusion matrix visualisation.
 
 This repository is intended for academic and professional use and contributes to the advancement of rapid post-disaster damage assessment methodologies.
