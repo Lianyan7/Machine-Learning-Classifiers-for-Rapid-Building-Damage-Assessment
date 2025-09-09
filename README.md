@@ -1,10 +1,35 @@
-# A Machine Learning-Supported Rapid Classification of Building Damage Following the 2010–2011 Canterbury Earthquakes
-Supplemental Materials for the Paper ***"A Machine Learning-Supported Rapid Classification of Building Damage Following the 2010–2011 Canterbury Earthquakes"***
+# Machine Learning-Supported Rapid Classification of Building Damage Following the 2010–2011 Canterbury Earthquakes
 
-This project evaluated the four machine learning classifiers—**Multilayer Perceptron (MLP), Random Forest (RF), Support Vector Machine (SVM), and K-Nearest Neighbours (KNN)**—to predict building damage placards in New Zealand. The code was developed by Lianyan Li and is based on the methodologies described in the following publication:
+## Overview
+This repository contains supplemental materials for the paper titled **"A Machine Learning-Supported Rapid Classification of Building Damage Following the 2010–2011 Canterbury Earthquakes"**, published in the *Journal of Building Engineering* (2025). The study evaluates multiple machine learning classifiers for predicting building damage placards based on post-earthquake assessment data from New Zealand.
 
-Li, L., Chang-Richards, A., et al. (2025). *A machine learning-supported rapid classification of building damage following the 2010–2011 Canterbury earthquakes*. Journal of Building Engineering, 107, pp. 112807. doi: https://doi.org/10.1016/j.jobe.2025.112807
+## Implemented Classifiers
+The project includes implementations and evaluations of the following machine learning algorithms:
+- Multilayer Perceptron (MLP)
+- Random Forest (RF)
+- Support Vector Machine (SVM)
+- K-Nearest Neighbours (KNN)
+- Gradient Bagging (GBag)
+- Gradient Boosting Classifier (GBC)
 
-This research was conducted with ethics approval granted by the University of Auckland Human Participants Ethics Committee (Reference Number 25474). The data utilised in this research contains sensitive building property information and is therefore confidential. However, a subset of the non-confidential data can be made available upon request. The Python file, ML Classifiers.py, includes the implementation of the four classifiers for training and testing each model, followed by the generation of a confusion matrix visualisation.
+## Reference
+Li, L., Chang-Richards, A., et al. (2025). A machine learning-supported rapid classification of building damage following the 2010–2011 Canterbury earthquakes. *Journal of Building Engineering*, 107, 112807. https://doi.org/10.1016/j.jobe.2025.112807
 
-This repository is intended for academic and professional use and contributes to the advancement of rapid post-disaster damage assessment methodologies.
+## Ethics Approval
+This research was conducted with ethics approval granted by the University of Auckland Human Participants Ethics Committee (Reference Number: 25474).
+
+## Data Availability
+The data utilized in this research contains sensitive building property information and is therefore confidential. A subset of non-confidential data may be made available upon reasonable request for research purposes, subject to ethical and privacy considerations.
+
+## Code Implementation
+The primary implementation file, `ML_Classifiers.py`, contains:
+- Training and testing procedures for all evaluated classifiers
+- Confusion matrix visualization generation
+- Model evaluation metrics
+
+## Intended Use
+This repository is intended for academic and professional use, contributing to the advancement of rapid post-disaster building damage assessment methodologies. The code may serve as a reference for researchers and practitioners working in disaster response and machine learning applications.
+
+## Disclaimer
+The code and materials are provided for research purposes only. Users are responsible for ensuring proper data handling and compliance with relevant ethical guidelines when adapting this work for other applications.
+
